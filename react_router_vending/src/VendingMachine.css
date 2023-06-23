@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.vending-machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: rem;
+    background-color: #2F4F4F;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 500px;
+}
+
+.vending-machine_title {
+    margin-top: 0;
+    text-align: center;
+}
+
+.vending-machine_list {
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.vending-machine_item {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #2F4F4F;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vending-machine_item:hover {
+    color: #3cb371
+}
+
+.drawer {
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: center;
+    text-align: center;
+    margin-top: 150px;
+}
