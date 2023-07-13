@@ -1,0 +1,49 @@
+
+1. What tech stack will you use for your final project? We recommend that you use
+React and Node for this project, however if you are extremely interested in
+becoming a Python developer you are welcome to use Python/Flask for this
+project.
+    I plan to use React and Node for this project. 
+  
+2. Is the front-end UI or the back-end going to be the focus of your project? Or are
+you going to make an evenly focused full-stack application?
+    I want to make an evenly focused full-stack application.
+  
+3. Will this be a website? A mobile app? Something else?
+    This will be a website about local Tampa Bay Meteorology and Hurricane History.
+  
+4. What goal will your project be designed to achieve?
+    The goal is to provide a website to view historical data and weather forecasts for Tampa Bay
+especially relating to thunderstorms and tropical cyclones.
+  
+5. What kind of users will visit your app? In other words, what is the demographic of
+your users?
+  Weather hobbyists, forecasters, historians, and anyone curious about Tampa Bay Weather
+including people of all ages and backgrounds will be mt demographic. 
+  
+6. What data do you plan on using? How are you planning on collecting your data?
+You may have not picked your actual API yet, which is fine, just outline what kind
+of data you would like it to contain. You are welcome to create your own API and
+populate it with data. If you are using a Python/Flask stack are required to create
+your own API.
+  I will use the free publicly available National Weather Service API.
+  
+7. In brief, outline your approach to creating your project (knowing that you may not
+know everything in advance and that these details might change later). Answer
+questions like the ones below, but feel free to add more information:
+a. What does your database schema look like? Home Page with Links to Hurricane History, general hurricane information, and weather
+algorithm forecasts.
+b. What kinds of issues might you run into with your API? This is especially
+important if you are creating your own API, web scraping produces
+notoriously messy data. If too many people use the site at once, the API has a waiting period after multiple uses so
+perhaps a slowing of the site may be an issue.
+c. Is there any sensitive information you need to secure? There is no sensitive information on this informative site,
+  but I may explore adding registration with users and passwords.
+d. What functionality will your app include? Pulling historical weather data and displaying weather forecasts for tropical cyclones
+and summer thunderstorms.
+e. What will the user flow look like? HomePage --> Historical Data --> Year --> Strongest Storms --> All storms --> Hurricanes
+  HomePage --> Weather Forecast Models --> ECMWF/GFS/CMC/ICON (hurricane) OR HRRR/NAM3/RGEM/FV3 local scale thunderstorm modeling
+f. What features make your site more than a CRUD app? What are your
+stretch goals? Historical Data and Weather Forecasting algorithm links will add more features than the simple CRUD features. For example,
+the ability to use ensemble runs with varying starting conditions to display potential paths of a hurricane. Have users make a list of their
+favorite chosen hurricanes and save it.
