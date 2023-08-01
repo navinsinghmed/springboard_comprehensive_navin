@@ -10,3 +10,13 @@ over a thousand weather videos from storms and hurricanes in Tampa Bay, Florida 
 
 This app allows you to enter a city and obtain weather data for that city including temperature,
 feels like temperature, humidity, and windspeed.
+
+The user simply enters a city and will see all the above features. 
+
+Technology Stack: Front-End:
+-HTML
+-CSS 
+
+Back-End:
+-Javascript
+-ReactJS
