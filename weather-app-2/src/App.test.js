@@ -7,19 +7,9 @@ it("renders without crashing", function () {
     render(<App />);
 });
 
+function onlyLettersAndSpaces(str) {
+  return /^[A-Za-z\s]*$/.test(str);
+}
 
-test('confirms that entry is text in weather app blank', () =>  
-{
-  const { getByText } = render(<App />)
-  function alphanumeric(getByText)
-  { 
-    var letters = /^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/;
-    if(inputtxt.value.match(letters))
-  {
-    return true;
-  }
-  else
-  {
-    return false;
-  }
-})
+const { getByText } = render(<App />); 
+onlyLettersAndSpaces({ getByText });
