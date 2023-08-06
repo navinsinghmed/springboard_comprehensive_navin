@@ -17,6 +17,8 @@ Humidity demonstrates how muggy or humid it feels. The feels like temperature ta
 
 The windspeed illustrates how windy it is in a city. These feautures reveal what it feels like and looks like in terms of weather conditions at a given city that the user types in. 
 
+The tests for this app are located in the App.test.js file under SRC folder.
+
 The standard user flow consists of the homepage --> search box to enter a city name --> result page with sky conditions, temperature, humidity, feels like temperature. The user flow also consists of homepage --> youtube link with thousands of videos I have taken of storms and hurricanes in Tampa Bay since 2010. 
 
 The api for this app uses openweathermap as a source which contains a database of thousands of cities worldwide. 
