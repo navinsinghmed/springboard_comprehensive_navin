@@ -2,7 +2,7 @@ The title of this app is weather-app-2, it is deployed at:
 https://github.com/navinsinghmed/springboard_comprehensive_navin/tree/main/weather-app-2
 
 To see the app work and how it connects to code:
-[https://codesandbox.io/s/react-new?file=/src/App.js
+[Tampa Bay Storm Chaser App Page
 ](https://codesandbox.io/s/frosty-tdd-hw6r8s?file=/src/App.js)
 
 This page contains Tampa Bay Storm Chaser Information with link to my youtube Channel with
