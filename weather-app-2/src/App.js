@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./styles.css";
+import tampabaystorm from "./assets/tampabaystorm.jpg";
+
+//Todo: add login and registration via login and registration js files
 
 function App() {
   const [data, setData] = useState({});
@@ -20,6 +23,13 @@ function App() {
 
   return (
     <div className="app">
+      <div>
+        <img
+          src={tampabaystorm}
+          alt="Storm over Tampa Bay"
+          style={{ height: 200, width: 300 }}
+        />
+      </div>
       <div className="search">
         <input
           value={location}
@@ -31,11 +41,12 @@ function App() {
       <div className="container">
         <div className="top">
           <h2>Tampa Bay Storm Chaser Weather Page!</h2>
-          <br></br>
-          <br></br>
           <p>
-            Check out my youtube channel:
+            This page allows you to type in a city and get the temperature, heat
+            index or feels like temperature, humidity, and sky conditions for a
+            given city.
             <br></br>
+            Check out my youtube channel:
             <a
               href="https://www.youtube.com/channel/UCDsDUNjGaFV6j2jZE8VRb6Q"
               target="_blank"
@@ -55,7 +66,7 @@ function App() {
           </div>
         </div>
 
-        {data.name != undefined && (
+        {data.name !== undefined && (
           <div className="bottom">
             <div className="feels">
               {data.main ? (
