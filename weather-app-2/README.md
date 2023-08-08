@@ -2,8 +2,8 @@ The title of this app is weather-app-2, it is deployed at:
 https://github.com/navinsinghmed/springboard_comprehensive_navin/tree/main/weather-app-2
 
 To see the app work and how it connects to code:
-https://codesandbox.io/s/react-new?file=/src/App.js
-
+[https://codesandbox.io/s/react-new?file=/src/App.js
+](https://codesandbox.io/s/frosty-tdd-hw6r8s?file=/src/App.js)
 
 This page contains Tampa Bay Storm Chaser Information with link to my youtube Channel with
 over a thousand weather videos from storms and hurricanes in Tampa Bay, Florida since 2010. This youtube video page is updated every 3 days or whenever new storms impact Tampa Bay and St. Petersburg Florida. While it was tempting to place videos on the homepage, the volume, length, and size of videos make it more efficient to use youtube as a platform instead. 
