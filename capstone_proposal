@@ -37,7 +37,7 @@ important if you are creating your own API, web scraping produces
 notoriously messy data. If too many people use the site at once, the API has a waiting period after multiple uses so
 perhaps a slowing of the site may be an issue.
 c. Is there any sensitive information you need to secure? There is no sensitive information on this informative site,
-  but I may explore adding registration with users and passwords.
+  but I may explore adding registration with users and passwords, and login all as a bonus. 
 d. What functionality will your app include? Pull up weather for a city
 e. What will the user flow look like? HomePage --> LookUp City --> Get weather
 f. What features make your site more than a CRUD app? What are your
