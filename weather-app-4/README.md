@@ -33,3 +33,5 @@ Technology Stack: Front-End:
 
 Back-End:
 -Javascript
+-SQL
+-NodeJS
