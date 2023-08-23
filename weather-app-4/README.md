@@ -1,4 +1,4 @@
-The title of this app is weather-app-2, it is deployed at:
+The title of this app is weather-app-4, it is deployed at:
 https://github.com/navinsinghmed/springboard_comprehensive_navin/tree/main/weather-app-2
 
 To see the app work and how it connects to code:
